@@ -14,5 +14,5 @@ export class Page2Component implements OnInit {
   showAlert() {
     window.alert('Vous avez cliqué sur le bouton !');
   }
-  imageUrl = '../../assets/github-logo.png';
+  imageUrl = 'assets/github-logo.png';
 }
