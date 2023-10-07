@@ -1,6 +1,7 @@
 <p>mon-formulaire works!</p>
 <section class="m-8 container mx-auto">
   <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <label>Textarea</label>
     <textarea
       formControlName="textarea"
       #textarea
