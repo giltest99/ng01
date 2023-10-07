@@ -9,6 +9,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { HeaderComponent } from './header/header.component';
 import { UsersComponent } from './users/users.component';
 import { HeroBannerComponent } from './hero-banner/hero-banner.component';
+import { GenericButtonComponent } from './generic-button/generic-button.component';
+import { MonFormulaireComponent } from './mon-formulaire/mon-formulaire.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { HeroBannerComponent } from './hero-banner/hero-banner.component';
     NotFoundComponent,
     HeaderComponent,
     UsersComponent,
-    HeroBannerComponent
+    HeroBannerComponent,
+    GenericButtonComponent,
+    MonFormulaireComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

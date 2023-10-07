@@ -1,0 +1,27 @@
+<p>mon-formulaire works!</p>
+<section class="m-8 container mx-auto">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <textarea
+      formControlName="textarea"
+      #textarea
+      class="border border-slate-300 mb-4 min-h-[200px] w-full resize-none rounded p-2 focus:outline-none focus:ring focus:border-slate-300"
+      autofocus
+    ></textarea>
+
+    <div class="flex gap-2">
+      <button
+        type="submit"
+        class="bg-slate-700 text-white px-4 py-1 text-lg rounded"
+      >
+        Submit
+      </button>
+      <button
+        type="button"
+        class="bg-red-700 text-white px-4 py-1 text-lg rounded"
+        (click)="resetTextarea()"
+      >
+        Reset
+      </button>
+    </div>
+  </form>
+</section>
