@@ -1,4 +1,65 @@
 [
-  { "id": 1, "nom": "Dupont", "prenom": "Jean" },
-  { "id": 2, "nom": "Martin", "prenom": "Pierre" }
+  {
+    "id": 1,
+    "nom": "Dupont",
+    "prenom": "Jean",
+    "email": "jean.dupont@example.com",
+    "ville": "Paris"
+  },
+  {
+    "id": 2,
+    "nom": "Martin",
+    "prenom": "Pierre",
+    "email": "pierre.martin@example.com",
+    "ville": "Lyon"
+  },
+  {
+    "id": 3,
+    "nom": "Lefevre",
+    "prenom": "Julie",
+    "email": "julie.lefevre@example.com",
+    "ville": "Marseille"
+  },
+  {
+    "id": 4,
+    "nom": "Lemoine",
+    "prenom": "Sophie",
+    "email": "sophie.lemoine@example.com",
+    "ville": "Toulouse"
+  },
+  {
+    "id": 5,
+    "nom": "Moreau",
+    "prenom": "Lucas",
+    "email": "lucas.moreau@example.com",
+    "ville": "Nice"
+  },
+  {
+    "id": 6,
+    "nom": "Simon",
+    "prenom": "Thomas",
+    "email": "thomas.simon@example.com",
+    "ville": "Nantes"
+  },
+  {
+    "id": 7,
+    "nom": "Laurent",
+    "prenom": "Camille",
+    "email": "camille.laurent@example.com",
+    "ville": "Strasbourg"
+  },
+  {
+    "id": 8,
+    "nom": "Roux",
+    "prenom": "Marie",
+    "email": "marie.roux@example.com",
+    "ville": "Montpellier"
+  },
+  {
+    "id": 9,
+    "nom": "Doe",
+    "prenom": "John",
+    "email": "john.doe@example.com",
+    "ville": "Toronto"
+  }
 ]
