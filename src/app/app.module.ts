@@ -13,6 +13,7 @@ import { GenericButtonComponent } from './generic-button/generic-button.componen
 import { MonFormulaireComponent } from './mon-formulaire/mon-formulaire.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HelloComponent } from './hello/hello.component';
+import { Page3Component } from './page3/page3.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HelloComponent } from './hello/hello.component';
     HeroBannerComponent,
     GenericButtonComponent,
     MonFormulaireComponent,
-    HelloComponent
+    HelloComponent,
+    Page3Component
   ],
   imports: [
     BrowserModule,
