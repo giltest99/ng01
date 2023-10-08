@@ -1,13 +1,13 @@
-# Créer, installer et déployer un nouveau projet ANGULAR
-## Installer Angular-Cli
+### Créer, installer et déployer un nouveau projet ANGULAR
+Installer Angular-Cli
 ```
 npm install -g @angular/cli
 ```
-## Créer un nouveau projet
+### Créer un nouveau projet
 ```
 ng new [mon-projet-angular]
 ```
-## Lancer le projet dans le navigateur avec un serveur de développement
+### Lancer le projet dans le navigateur avec un serveur de développement
 
 ```
 ng serve
