@@ -12,7 +12,7 @@ export class Page3Component implements OnInit {
   users$!: Observable<any>;
   constructor(private titleService: Title, private http: HttpClient) {}
   ngOnInit() {
-    this.titleService.setTitle('Page 3');
+    this.titleService.setTitle('Cartes');
     this.users$ = this.http.get('assets/users.json');
   }
 }

@@ -13,7 +13,7 @@ export class Page2Component implements OnInit {
     
   }
   ngOnInit() {
-    this.titleService.setTitle('Page 2');
+    this.titleService.setTitle('Divers');
   }
   showAlert() {
     window.alert('Vous avez cliqué sur le bouton !');

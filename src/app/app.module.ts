@@ -15,6 +15,7 @@ import { MonFormulaireComponent } from './mon-formulaire/mon-formulaire.componen
 import { ReactiveFormsModule } from '@angular/forms';
 import { HelloComponent } from './hello/hello.component';
 import { Page3Component } from './page3/page3.component';
+import { Page4Component } from './page4/page4.component';
 
 @NgModule({
   declarations: [
@@ -28,15 +29,16 @@ import { Page3Component } from './page3/page3.component';
     GenericButtonComponent,
     MonFormulaireComponent,
     HelloComponent,
-    Page3Component
+    Page3Component,
+    Page4Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
