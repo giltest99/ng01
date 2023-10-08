@@ -5,4 +5,5 @@
 `ng new [mon-projet-angular]`
 ### Lancer le projet dans le navigateur avec un serveur de développement
 `ng serve`<br>
-L'application est disponible à l'url : [http://localhost:4200](http://localhost:4200 "http://localhost:4200")
+### L'application est disponible à l'url : 
+[http://localhost:4200](http://localhost:4200 "http://localhost:4200")
