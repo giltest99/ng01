@@ -1,4 +1,4 @@
-### Créer, installer et déployer un nouveau projet ANGULAR
+###  Créer, installer et déployer un nouveau projet ANGULAR
 
 Installer Angular-Cli
 
