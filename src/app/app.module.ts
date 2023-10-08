@@ -12,6 +12,7 @@ import { HeroBannerComponent } from './hero-banner/hero-banner.component';
 import { GenericButtonComponent } from './generic-button/generic-button.component';
 import { MonFormulaireComponent } from './mon-formulaire/mon-formulaire.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HelloComponent } from './hello/hello.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     UsersComponent,
     HeroBannerComponent,
     GenericButtonComponent,
-    MonFormulaireComponent
+    MonFormulaireComponent,
+    HelloComponent
   ],
   imports: [
     BrowserModule,
