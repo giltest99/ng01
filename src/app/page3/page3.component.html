@@ -1,1 +1,15 @@
-<p>page3 works!</p>
+<section>
+    <h1 class="text-2xl">Annuaire</h1>
+</section>
+<section class="mt-8 px-2">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-4">
+    <article
+      *ngFor="let user of users$ | async"
+      class="card bg-slate-100 shadow rounded p-4"
+    >
+      <h2 class="text-xl font-bold mb-2">{{ user.prenom }} {{ user.nom | uppercase }}</h2>
+      <p class="text-gray-700 mb-2">{{ user.email  }}</p>
+      <p class="text-gray-500">{{ user.ville }}</p>
+    </article>
+  </div>
+</section>

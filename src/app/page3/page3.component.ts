@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-page3',
@@ -7,8 +9,10 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./page3.component.css'],
 })
 export class Page3Component implements OnInit {
-  constructor(private titleService: Title) {}
+  users$!: Observable<any>;
+  constructor(private titleService: Title, private http: HttpClient) {}
   ngOnInit() {
     this.titleService.setTitle('Page 3');
+    this.users$ = this.http.get('assets/users.json');
   }
 }
