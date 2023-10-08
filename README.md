@@ -12,7 +12,7 @@ npm install -g @angular/cli
 ng new [mon-projet-angular]
 ```
 
-###  Lancer le projet dans le navigateur avec un serveur de développement
+<h3>  Lancer le projet dans le navigateur avec un serveur de développement </h3>
 
 ```
 ng serve
